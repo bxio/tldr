@@ -1,0 +1,27 @@
+# prettyping
+
+> a wrapper around the system's "ping" tool.
+> It will substitute each ping response line by a colored character, giving a very compact overview of the ping responses.
+
+`prettyping --[no]color`
+
+- Enable/disable color output. (default: enabled)
+
+
+`prettyping --[no]unicode`
+
+- Enable/disable unicode characters. (default: enabled)
+
+`prettyping --[no]legend`
+
+- Enable/disable the latency legend. (default: enabled)
+
+`prettyping --[no]terminal`
+
+- Force the output designed to a terminal. (default: auto)
+
+`prettyping --last <n>`
+
+- Use the last "n" pings at the statistics line. (default: 60)
+
+Other Parameters passed directly to ping.
